@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+XiaoWei&display=swap');
+body{
+    font-family: 'ZCOOL XiaoWei', serif;
+}
+.col-md-3{
+   
+    border-radius: 5px;
+    text-align: center;
+}
+.jumbotron{
+    background-color: cadetblue;
+    
+}
+li{
+    color: blue;
+    
+}   
+ul{
+    padding-left: 30%;
+}
+.col-md-3:hover{
+    color: #424242; 
+  -webkit-transition: all .3s ease-in;
+  -moz-transition: all .3s ease-in;
+  -ms-transition: all .3s ease-in;
+  -o-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+  opacity: 1;
+  transform: scale(1.15);
+  -ms-transform: scale(1.15); 
+  -webkit-transform: scale(1.15);
+
+}
+img{
+    border-radius: 5px;
+}
+hr{
+    color: black;
+}
+

@@ -8,7 +8,7 @@
     {% if category%}
     <title> Personal Gallery - {{category}} </title>
     {% else %}
-    <title> Ronoh K. Gallery </title>
+    <title> Kiprotich Amos Koech </title>
     {% endif %}
 
     {% block styles %}
@@ -31,13 +31,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
-<footer>
     <!-- Footer -->
 
-<footer class="page-footer font-small special-color-dark pt-4">
+<footer class="page-footer font-small special-color-dark pt-4",style="background: linear-gradient(141deg,#056b5b 35%,#9dd85c 103%);">
     <!-- Footer Elements -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <div class="container">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css",link rel="stylesheet" href="{% static 'css/photo.css' %}">
+    <div class="container" >
   
       <!-- Social buttons -->
       <ul class="list-unstyled list-inline text-center">
@@ -64,6 +63,5 @@
     <!-- Copyright -->
   
   </footer>
-</footer>
 
 </html>

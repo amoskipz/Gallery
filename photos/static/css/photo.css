@@ -38,3 +38,6 @@ hr{
     color: black;
 }
 
+footer{
+    background: linear-gradient(141deg,#056b5b 35%,#9dd85c 103%)!important;
+}

@@ -38,7 +38,7 @@ SECRET_KEY="amos3378"
 # DEBUG = os.environ.get('DEBUG')
 DEBUG = True
 
-ALLOWED_HOSTS = ["127.0.0.1"]
+ALLOWED_HOSTS = []
 
 
 # Application definition

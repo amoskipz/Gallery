@@ -1,1 +1,1 @@
-gunicorn amosgallery.wsgi --log-file -
+gunicorn amos.wsgi --log-file -

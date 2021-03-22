@@ -1,1 +1,1 @@
-gunicorn amos.wsgi --log-file -
+web: gunicorn amos.wsgi --log-file -
